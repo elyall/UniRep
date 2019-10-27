@@ -1,8 +1,8 @@
 """
 Runs embedding/inference for an input fasta file:
 
-    ls -S -r ../github/ml-datasets/*/*.faa | parallel -j1 "python run_inference.py {} {}.unirep1200.pkl" 
-    ls -S -r ../github/ml-datasets/*/*.faa | parallel -j1 "python run_inference.py --reverse {} {}.unirep1200_rev.pkl" 
+    ls -S -r ../github/ml-datasets/*/*.faa | parallel -j1 "python run_inference.py {} {}.unirep1900.pkl" 
+    ls -S -r ../github/ml-datasets/*/*.faa | parallel -j1 "python run_inference.py --reverse {} {}.unirep1900_rev.pkl" 
 
 Conda environment configured as follows:
     conda create -n py35tfv1opt python=3.5
